@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    
+}
+body{
+    background-color: rgb(204, 238, 238);
+}
+.heading{
+    width:100%;
+    height:100px;
+    background-color: rgb(54, 101, 189);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading h1{
+   font-size: 35px;
+   font-weight: 800;
+   line-height: 70px;
+}
+.images{
+    height:200px;
+    width:100%;
+   
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top:40px;
+}
+.images img{
+   margin:0px 50px;
+    border-radius: 50%;
+    height:150px;
+    width:150px;
+}
+.images img:hover{
+    border: 4px solid black;
+}
+
+.points-section{
+    height:100px;
+    width:100%;
+   
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top:40px;
+}
+.points-section .box{
+    margin:0px 50px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100px;
+    width:100px;
+}
+.points-section .box .you-points{
+    font-size:28px;
+    margin-bottom:10px;
+    padding: 5px;
+    border: 3px solid rgb(7,7,7);
+}
+.points-section .box .you{
+    font-size: 30px;
+   
+}
+.points-section .box .comp-points{
+    font-size:28px;
+    padding: 5px;
+    margin-bottom:10px;
+    border: 3px solid rgb(7, 7, 7);
+}
+.points-section .box .comp{
+    font-size: 30px;
+}
+.results{
+    height:80px;
+    width:100%;
+   
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top:40px;
+}
+
+.results p{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border-radius: 6px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    width:200px;
+    font-size: 20px;
+}
+
+@media (max-width:500px){
+    .heading h1{
+        font-size: 25px;
+        font-weight: 800;
+        line-height: 70px;
+     }
+     .images img{
+        margin:0px 50px;
+         border-radius: 50%;
+         height:100px;
+         width:100px;
+     }
+
+}
+
+@media (max-width:365px){
+    .heading h1{
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 70px;
+     }
+     .images{
+        margin:0 50px;
+     }
+     .images img{
+        
+         border-radius: 50%;
+         height:60px;
+         width:60px;
+         justify-content: space-around;
+     }
+    }
