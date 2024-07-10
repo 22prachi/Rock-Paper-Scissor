@@ -1,4 +1,3 @@
-
 const youPoints=document.querySelector('.you-points')
 const paper=document.querySelector(".paper");
 const rock=document.querySelector(".rock");
