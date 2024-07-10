@@ -22,8 +22,8 @@ function check1(){
   const computer=compMove()
   console.log(computer)
   if (computer === 'paper'){
-     youPoints.innerText=`0`
-     compPoints.innerText=`0`
+     youPoints.innerText=``
+     compPoints.innerText=``
      
      result.innerHTML='It was Draw'
      result.style.backgroundColor='orange'
@@ -49,12 +49,12 @@ function check1(){
   }
 }
 function check2(){
-    let score=0
+    
   const computer=compMove()
   console.log(computer)
   if (computer === 'rock'){
-     youPoints.innerText=`0`
-     compPoints.innerText=`0`
+     youPoints.innerText=``
+     compPoints.innerText=``
    
      result.innerHTML='It was Draw'
      result.style.backgroundColor='orange'
@@ -81,12 +81,12 @@ function check2(){
 }
 
 function check3(){
-    let score=0
+   
   const computer=compMove()
   console.log(computer)
   if (computer === 'scissor'){
-     youPoints.innerText=`0`
-     compPoints.innerText=`0`
+     youPoints.innerText=``
+     compPoints.innerText=``
 
      result.innerHTML='It was Draw'
      result.style.backgroundColor='orange'
