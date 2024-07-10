@@ -35,7 +35,7 @@ function check1(){
     compScore++
     youPoints.innerHTML=`${score}`
     compPoints.innerHTML=`${compScore}`
-     result.innerHTML=`You lost. Scissor cuts Paper`
+     result.innerHTML=`You lost. Computer : Scissor , User : Paper`
      result.style.backgroundColor='red'
      result.style.width='400px'
      result.style.fontSize='18px'
@@ -43,7 +43,7 @@ function check1(){
     score++
     youPoints.innerHTML=`${score}`
     compPoints.innerHTML=`${compScore}`
-     result.innerHTML=`You won. Paper holds rock`
+     result.innerHTML=`You won. Computer : Rock , User : Paper`
      result.style.backgroundColor='green'
      result.style.width='400px'
      result.style.fontSize='18px'
@@ -66,7 +66,7 @@ function check2(){
     compScore++
     youPoints.innerHTML=`${score}`
     compPoints.innerHTML=`${compScore}`
-     result.innerHTML=`You lost . Paper holds rock`
+     result.innerHTML=`You lost . Computer : Paper , User : Rock`
      result.style.backgroundColor='red'
      result.style.width='400px'
      result.style.fontSize='18px'
@@ -74,7 +74,7 @@ function check2(){
     score++
     youPoints.innerHTML=`${score}`
     compPoints.innerHTML=`${compScore}`
-     result.innerHTML=`You won. Rock beats scissor`
+     result.innerHTML=`You won. Computer : Scissor , User : Rock`
      result.style.backgroundColor='green'
      result.style.width='400px'
      result.style.fontSize='18px'
@@ -98,7 +98,7 @@ function check3(){
     compScore++
     youPoints.innerHTML=`${score}`
     compPoints.innerHTML=`${compScore}`
-     result.innerHTML=`You lost. Rock beats scissor`
+     result.innerHTML=`You lost. Computer : Rock , User : Scissor`
      result.style.backgroundColor='red'
      result.style.width='400px'
      result.style.fontSize='18px'
@@ -106,7 +106,7 @@ function check3(){
     score++
     youPoints.innerHTML=`${score}`
     compPoints.innerHTML=`${compScore}`
-     result.innerHTML=`You won. Scissor cuts paper`
+     result.innerHTML=`You won. Computer : Paper , User : Scissor`
      result.style.backgroundColor='green'
      result.style.width='400px'
      result.style.fontSize='18px'
